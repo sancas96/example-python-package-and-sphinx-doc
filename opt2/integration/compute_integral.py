@@ -13,15 +13,15 @@ def Rcf(f,a,b,n):
         b (float): right point of interval
         n (float): number of subintervals
     Returns:
-        sum_res (float): numerical approximation to integral of f in the interval a,b 
+        sum_res (float): numerical approximation to integral of f in the interval a,b
     """
     h_hat=(b-a)/n
     nodes=[a+(i+1/2)*h_hat for i in range(0,n)]
     sum_res=0
     for node in nodes:
         sum_res=sum_res+f(node)
-    return h_hat*sum_res 
-def Rcf2(f,a,b,n): #Rcf2: rectángulo compuesto para f
+    return h_hat*sum_res
+def Rcf2(f,a,b,n):
     """
     :param f: function expression of integrand
     :param a: left point of interval
@@ -30,7 +30,7 @@ def Rcf2(f,a,b,n): #Rcf2: rectángulo compuesto para f
     :type f: function
     :type a: float
     :type b: float
-    :type n: float    
+    :type n: float
     :returns: numerical approximation to integral of f in the interval a,b
     :rtype: float
     """
@@ -39,4 +39,4 @@ def Rcf2(f,a,b,n): #Rcf2: rectángulo compuesto para f
     sum_res=0
     for node in nodes:
         sum_res=sum_res+f(node)
-    return h_hat*sum_res 
+    return h_hat*sum_res
