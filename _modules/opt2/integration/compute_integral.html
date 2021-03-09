@@ -46,15 +46,15 @@
 <span class="sd">        b (float): right point of interval</span>
 <span class="sd">        n (float): number of subintervals</span>
 <span class="sd">    Returns:</span>
-<span class="sd">        sum_res (float): numerical approximation to integral of f in the interval a,b </span>
+<span class="sd">        sum_res (float): numerical approximation to integral of f in the interval a,b</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">h_hat</span><span class="o">=</span><span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">n</span>
     <span class="n">nodes</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="o">+</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">h_hat</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n</span><span class="p">)]</span>
     <span class="n">sum_res</span><span class="o">=</span><span class="mi">0</span>
     <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
         <span class="n">sum_res</span><span class="o">=</span><span class="n">sum_res</span><span class="o">+</span><span class="n">f</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">h_hat</span><span class="o">*</span><span class="n">sum_res</span> </div>
-<div class="viewcode-block" id="Rcf2"><a class="viewcode-back" href="../../../_autosummary/opt2.integration.compute_integral.Rcf2.html#opt2.integration.compute_integral.Rcf2">[docs]</a><span class="k">def</span> <span class="nf">Rcf2</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">n</span><span class="p">):</span> <span class="c1">#Rcf2: rectángulo compuesto para f</span>
+    <span class="k">return</span> <span class="n">h_hat</span><span class="o">*</span><span class="n">sum_res</span></div>
+<div class="viewcode-block" id="Rcf2"><a class="viewcode-back" href="../../../_autosummary/opt2.integration.compute_integral.Rcf2.html#opt2.integration.compute_integral.Rcf2">[docs]</a><span class="k">def</span> <span class="nf">Rcf2</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    :param f: function expression of integrand</span>
 <span class="sd">    :param a: left point of interval</span>
@@ -63,7 +63,7 @@
 <span class="sd">    :type f: function</span>
 <span class="sd">    :type a: float</span>
 <span class="sd">    :type b: float</span>
-<span class="sd">    :type n: float    </span>
+<span class="sd">    :type n: float</span>
 <span class="sd">    :returns: numerical approximation to integral of f in the interval a,b</span>
 <span class="sd">    :rtype: float</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -72,7 +72,7 @@
     <span class="n">sum_res</span><span class="o">=</span><span class="mi">0</span>
     <span class="k">for</span> <span class="n">node</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">:</span>
         <span class="n">sum_res</span><span class="o">=</span><span class="n">sum_res</span><span class="o">+</span><span class="n">f</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">h_hat</span><span class="o">*</span><span class="n">sum_res</span> </div>
+    <span class="k">return</span> <span class="n">h_hat</span><span class="o">*</span><span class="n">sum_res</span></div>
 </pre></div>
 
           </div>
