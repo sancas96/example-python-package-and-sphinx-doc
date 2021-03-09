@@ -36,9 +36,10 @@
 
 <div class="viewcode-block" id="Rcf"><a class="viewcode-back" href="../../../_autosummary/opt2.integration.compute_integral.Rcf.html#opt2.integration.compute_integral.Rcf">[docs]</a><span class="k">def</span> <span class="nf">Rcf</span><span class="p">(</span><span class="n">f</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">n</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Compute numerical approximation using rectangle or mid-point method in </span>
-<span class="sd">    an interval.</span>
-<span class="sd">    Nodes are generated via formula: x_i = a+(i+1/2)h_hat for i=0,1,...,n-1 and h_hat=(b-a)/n</span>
+<span class="sd">    Compute numerical approximation using rectangle or mid-point</span>
+<span class="sd">    method in an interval.</span>
+<span class="sd">    Nodes are generated via formula: x_i = a+(i+1/2)h_hat for</span>
+<span class="sd">    i=0,1,...,n-1 and h_hat=(b-a)/n</span>
 
 <span class="sd">    Args:</span>
 <span class="sd">        f (function): function expression of integrand</span>
@@ -46,7 +47,8 @@
 <span class="sd">        b (float): right point of interval</span>
 <span class="sd">        n (float): number of subintervals</span>
 <span class="sd">    Returns:</span>
-<span class="sd">        sum_res (float): numerical approximation to integral of f in the interval a,b</span>
+<span class="sd">        sum_res (float): numerical approximation to integral</span>
+<span class="sd">        of f in the interval a,b</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">h_hat</span><span class="o">=</span><span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">n</span>
     <span class="n">nodes</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="o">+</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">h_hat</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n</span><span class="p">)]</span>
@@ -64,7 +66,8 @@
 <span class="sd">    :type a: float</span>
 <span class="sd">    :type b: float</span>
 <span class="sd">    :type n: float</span>
-<span class="sd">    :returns: numerical approximation to integral of f in the interval a,b</span>
+<span class="sd">    :returns: numerical approximation to integral of f in</span>
+<span class="sd">              the interval a,b</span>
 <span class="sd">    :rtype: float</span>
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="n">h_hat</span><span class="o">=</span><span class="p">(</span><span class="n">b</span><span class="o">-</span><span class="n">a</span><span class="p">)</span><span class="o">/</span><span class="n">n</span>
