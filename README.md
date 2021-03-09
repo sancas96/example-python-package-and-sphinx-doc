@@ -1,4 +1,4 @@
-# Example of sphinx documentation for *Python3* package
+# Example of sphinx documentation for *Python3* package and publishing it with [github-pages](https://pages.github.com/)
 
 1. Fork this repo.
 
