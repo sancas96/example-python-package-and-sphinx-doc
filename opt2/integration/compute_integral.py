@@ -3,9 +3,10 @@ from scipy.integrate import quad
 
 def Rcf(f,a,b,n):
     """
-    Compute numerical approximation using rectangle or mid-point method in 
-    an interval.
-    Nodes are generated via formula: x_i = a+(i+1/2)h_hat for i=0,1,...,n-1 and h_hat=(b-a)/n
+    Compute numerical approximation using rectangle or mid-point
+    method in an interval.
+    Nodes are generated via formula: x_i = a+(i+1/2)h_hat for
+    i=0,1,...,n-1 and h_hat=(b-a)/n
 
     Args:
         f (function): function expression of integrand
@@ -13,7 +14,8 @@ def Rcf(f,a,b,n):
         b (float): right point of interval
         n (float): number of subintervals
     Returns:
-        sum_res (float): numerical approximation to integral of f in the interval a,b
+        sum_res (float): numerical approximation to integral
+        of f in the interval a,b
     """
     h_hat=(b-a)/n
     nodes=[a+(i+1/2)*h_hat for i in range(0,n)]
@@ -31,7 +33,8 @@ def Rcf2(f,a,b,n):
     :type a: float
     :type b: float
     :type n: float
-    :returns: numerical approximation to integral of f in the interval a,b
+    :returns: numerical approximation to integral of f in
+              the interval a,b
     :rtype: float
     """
     h_hat=(b-a)/n
