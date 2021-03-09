@@ -1,21 +1,11 @@
-# Installation
+# Example of sphinx documentation for *Python3* package
 
-Install me with a:
+1. Fork this repo.
 
-```
-pip install .
-```
+2. Make sure `gh-pages` is enabled in your repo settings.
 
-or in editable mode:
+3. In this `README.md` change the url that has this next link: [online doc](https://palmoreck.github.io/example-python-package-and-sphinx-doc/) to point to your site of `gh-pages`.
 
-```
-pip install -e .
-```
+4. Modify some `.rst` doc for example [doc/index.rst](doc/index.rst).
 
-or with url:
-
-```
-pip install git+https://github.com/optimizacion-2-2021-1-gh-classroom/example-python-package-and-sphinx.git
-```
-
-[Online doc](https://palmoreck.github.io/example-python-package-and-sphinx-doc/)
+5. Go to `online doc` of step 3.
