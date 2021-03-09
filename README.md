@@ -2,9 +2,9 @@
 
 1. Fork this repo.
 
-2. Make sure `gh-pages` is enabled in your repo settings.
+2. Make sure *Github Pages* is enabled in your repo settings.
 
-3. In this `README.md` change the url that has this next link: [online doc](https://palmoreck.github.io/example-python-package-and-sphinx-doc/) to point to your site of `gh-pages`.
+3. In this `README.md` change the url that has this next link: [online doc](https://palmoreck.github.io/example-python-package-and-sphinx-doc/) to point to your site of *Github Pages*.
 
 4. Modify some `.rst` doc for example [docs/index.rst](docs/index.rst) to see how could doc be updated.
 
