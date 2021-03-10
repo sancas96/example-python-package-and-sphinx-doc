@@ -8,5 +8,5 @@
 
 4. Modify some `.rst` doc for example [docs/index.rst](docs/index.rst) to see how documentation can be updated.
 
-5. Go to `online doc` of step 3.
+5. Go to `online doc` of step 3 after github actions succeed building doc.
 
