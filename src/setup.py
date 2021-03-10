@@ -11,5 +11,6 @@ setup(name="opt2",
       install_requires = [
                           "numpy",
                           "pandas",
+                          "nose"
                           ],
       )
