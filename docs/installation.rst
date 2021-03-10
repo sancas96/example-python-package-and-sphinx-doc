@@ -22,4 +22,4 @@ or with url:
 
 .. code-block:: bash
 
-    pip install git+https://github.com/optimizacion-2-2021-1-gh-classroom/example-python-package-and-sphinx.git
+    pip install "git+https://github.com/palmoreck/example-python-package-and-sphinx-doc.git#egg=opt2&subdirectory=src"
