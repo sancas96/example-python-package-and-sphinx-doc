@@ -24,7 +24,7 @@ jobs:
     # ===============================
       run: |
         mkdir docs/_build && mkdir docs/_autosummary && mkdir docs/_static && mkdir docs/_templates && chmod gou+wrx -R docs
-        docker run -v $(pwd):/datos --entrypoint /bin/bash --rm palmoreck/jupyterlab_optimizacion_2:3.0.0 -c "export PATH=$PATH:/home/miuser/.local/bin/ && cd /datos && pip install . && cd docs && make html"
+        docker run -v $(pwd):/datos --entrypoint /bin/bash --rm palmoreck/jupyterlab_optimizacion_2:3.0.0 -c "export PATH=$PATH:/home/miuser/.local/bin/ && cd /datos/src && pip install . && cd docs && make html"
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3.7.3
       with:
