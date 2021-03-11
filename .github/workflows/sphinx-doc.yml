@@ -13,12 +13,7 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
-    # Standard drop-in approach that should work for most people.
     - uses: actions/checkout@v2
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
     - name: Install dependencies and commit doc changes
     # Publish built docs to gh-pages branch.
     # ===============================
