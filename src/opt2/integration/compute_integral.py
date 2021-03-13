@@ -26,7 +26,7 @@ def Rcf(f,a,b,n):
 def Rcf2(f,a,b,n):
     """
     Similar function to Rcf just to show how two different docstrings
-    in Python can be used with sphinx (see source to compare).
+    in Python can be used with Sphinx (see source to compare).
     
     :param f: function expression of integrand
     :param a: left point of interval
