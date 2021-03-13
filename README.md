@@ -6,7 +6,7 @@
 
 3. In this `README.md` change the url that has this next link: [online doc](https://palmoreck.github.io/example-python-package-and-sphinx-doc/) to point to your site of *Github Pages*.
 
-4. Modify some `.rst` doc for example [docs/index.rst](docs/index.rst) to trigger gh action for building doc.
+4. Modify some `.rst` doc for example [src/docs/index.rst](src/docs/index.rst) to trigger gh action for building doc.
 
 5. Go to `online doc` of step 3 after github actions succeed building doc.
 
