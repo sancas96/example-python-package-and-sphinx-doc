@@ -25,7 +25,7 @@ def Rcf(f,a,b,n):
     return h_hat*sum_res
 def Rcf2(f,a,b,n):
     """
-    Similar function to Rcf just to show how two docstrings different
+    Similar function to Rcf just to show how two different docstrings
     in Python can be used with sphinx (see source to compare).
     
     :param f: function expression of integrand
