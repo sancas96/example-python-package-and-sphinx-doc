@@ -8,6 +8,7 @@ Welcome to "opt2"'s documentation!
 
 Hello world!
 
+
  .. toctree::
    :maxdepth: 1
    :caption: Contents:
