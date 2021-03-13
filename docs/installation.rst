@@ -10,12 +10,16 @@ Install package with:
   
 .. code-block:: bash
 
+   #execute next line being in `src` dir `setup.py` after cloning repo
+   #https://github.com/palmoreck/example-python-package-and-sphinx-doc
    pip install .
 
 or in editable mode:
 
 .. code-block:: bash
 
+   #execute next line being in `src` dir `setup.py` after cloning repo
+   #https://github.com/palmoreck/example-python-package-and-sphinx-doc
    pip install -e .
 
 or with url:
