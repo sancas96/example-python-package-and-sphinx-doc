@@ -6,9 +6,9 @@
 
 3. In this `README.md` change the url that has this next link: [online doc](https://palmoreck.github.io/example-python-package-and-sphinx-doc/) to point to your site of *Github Pages*.
 
-4. Modify some `.rst` doc for example [docs/index.rst](docs/index.rst) to see how documentation can be updated.
+4. Modify some `.rst` doc for example [docs/index.rst](docs/index.rst) to trigger gh action for building doc.
 
 5. Go to `online doc` of step 3 after github actions succeed building doc.
 
-**Note: if you want to create a *package* in `src` with different functions for example, then make the proper substitutions in `src` and change the `.rst` files related with correspondent files in `docs` to update doc.**
+**Note: if you want to create a *package* in `src` with different functions for example, then make the proper substitutions in `src` and change the `.rst` files related with correspondent files in `docs` to trigger gh action for building doc.**
 
