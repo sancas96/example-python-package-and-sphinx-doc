@@ -10,3 +10,5 @@
 
 5. Go to `online doc` of step 3 after github actions succeed building doc.
 
+**Note: if you want to create a *package* in `src` with different functions for example, then make the proper substitutions in `src` and change the `.rst` files related with correspondent files in `docs` to update doc.**
+
