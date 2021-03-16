@@ -1,0 +1,30 @@
+opt2.integration.compute\_integral
+==================================
+
+.. automodule:: opt2.integration.compute_integral
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      Rcf
+      Rcf2
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+

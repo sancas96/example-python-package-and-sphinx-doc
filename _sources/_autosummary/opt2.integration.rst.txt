@@ -1,0 +1,31 @@
+﻿opt2.integration
+================
+
+.. automodule:: opt2.integration
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   
+
+
+
+.. rubric:: Modules
+
+.. autosummary::
+   :toctree:
+   :recursive:
+
+   opt2.integration.compute_integral
+
