@@ -6,7 +6,7 @@
 Welcome to "opt2"'s documentation!
 ==================================
 
-Hello world!
+¡Hola mundo!
 
  .. toctree::
    :maxdepth: 1
