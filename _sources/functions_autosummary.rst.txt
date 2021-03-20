@@ -4,8 +4,8 @@
 Functions
 *********
       
-Print table
-===========
+Print table module
+==================
 
 .. autosummary::
    :toctree: _autosummary
