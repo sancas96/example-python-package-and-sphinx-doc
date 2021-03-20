@@ -4,8 +4,8 @@
 Modules
 *******
       
-Compute integral
-================
+Compute integral functions
+==========================
 
 .. autosummary::
    :toctree: ../_autosummary
