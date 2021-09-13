@@ -12,3 +12,5 @@
 
 **Note: if you want to create a *package* in `src` with different functions for example, then make the proper substitutions in `src` and change the `.rst` files related with correspondent files in `docs` to trigger gh action for building doc.**
 
+
+[video](https://youtu.be/zmfbKNvOuSk) that explains content of this repo (in spanish).
