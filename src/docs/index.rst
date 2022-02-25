@@ -6,6 +6,8 @@
 Welcome to "opt2"'s documentation!
 ==================================
 
+¡Hola Mundo 2022!
+
  .. toctree::
    :maxdepth: 1
    :caption: Contents:
