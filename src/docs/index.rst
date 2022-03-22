@@ -6,7 +6,7 @@
 Welcome to "opt2"'s documentation!
 ==================================
 
-Hola ita :)!
+Hola cambion .py!
 
  .. toctree::
    :maxdepth: 1
