@@ -1,6 +1,0 @@
-﻿opt2.integration.compute\_integral.Rcf2
-=======================================
-
-.. currentmodule:: opt2.integration.compute_integral
-
-.. autofunction:: Rcf2

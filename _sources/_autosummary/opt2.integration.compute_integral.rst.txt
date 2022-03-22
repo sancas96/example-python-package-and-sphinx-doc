@@ -9,16 +9,15 @@ opt2.integration.compute\_integral
 
    
    
-   .. rubric:: Functions
+   
+
+   
+   
+   .. rubric:: Classes
 
    .. autosummary::
    
-      Rcf
-      Rcf2
-   
-   
-
-   
+      MaxFlowAeiu
    
    
 
