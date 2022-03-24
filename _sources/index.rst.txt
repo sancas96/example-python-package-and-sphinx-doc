@@ -6,8 +6,10 @@
 Welcome to "opt2"'s documentation!
 ==================================
 
-super chale
+Super chale!
 
+ .. toctree::
+   :maxdepth: 1
    :caption: Contents:
 
    installation
@@ -21,3 +23,4 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
