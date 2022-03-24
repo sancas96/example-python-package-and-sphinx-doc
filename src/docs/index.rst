@@ -6,7 +6,7 @@
 Welcome to "opt2"'s documentation!
 ==================================
 
-REGRESANDO COMO ESTABA 
+super chale
 
    :caption: Contents:
 
