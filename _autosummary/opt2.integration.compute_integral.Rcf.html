@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modules &#8212; &#34;opt2&#34; 0.1 documentation</title>
+    <title>opt2.integration.compute_integral.Rcf &#8212; &#34;opt2&#34; 0.1 documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
@@ -30,25 +30,37 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="modules">
-<h1>Modules<a class="headerlink" href="#modules" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="compute-integral-functions">
-<h2>Compute integral functions<a class="headerlink" href="#compute-integral-functions" title="Permalink to this headline">¶</a></h2>
-<table class="longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="../_autosummary/opt2.integration.compute_integral.Rcf.html#opt2.integration.compute_integral.Rcf" title="opt2.integration.compute_integral.Rcf"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_integral.Rcf</span></code></a>(f, a, b, n)</p></td>
-<td><p>Compute numerical approximation using rectangle or mid-point method in an interval.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="../_autosummary/opt2.integration.compute_integral.Rcf2.html#opt2.integration.compute_integral.Rcf2" title="opt2.integration.compute_integral.Rcf2"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_integral.Rcf2</span></code></a>(f, a, b, n)</p></td>
-<td><p>Similar function to Rcf just to show how two different docstrings in Python can be used with Sphinx (see source to compare).</p></td>
-</tr>
-</tbody>
-</table>
-</div>
+  <div class="section" id="opt2-integration-compute-integral-rcf">
+<h1>opt2.integration.compute_integral.Rcf<a class="headerlink" href="#opt2-integration-compute-integral-rcf" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="opt2.integration.compute_integral.Rcf">
+<code class="sig-name descname">Rcf</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">f</span></em>, <em class="sig-param"><span class="n">a</span></em>, <em class="sig-param"><span class="n">b</span></em>, <em class="sig-param"><span class="n">n</span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/opt2/integration/compute_integral.html#Rcf"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#opt2.integration.compute_integral.Rcf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute numerical approximation using rectangle or mid-point
+method in an interval.
+Nodes are generated via formula: x_i = a+(i+1/2)h_hat for
+i=0,1,…,n-1 and h_hat=(b-a)/n
+:param f: function expression of integrand.
+:type f: function
+:param a: left point of interval.
+:type a: float
+:param b: right point of interval.
+:type b: float
+:param n: number of subintervals.
+:type n: float</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><dl class="simple">
+<dt>numerical approximation to integral</dt><dd><p>of f in the interval a,b</p>
+</dd>
+</dl>
+</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>sum_res (float)</p>
+</dd>
+</dl>
+</dd></dl>
+
 </div>
 
 
@@ -106,7 +118,7 @@
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../_sources/integration/modules_autosummary.rst.txt"
+      <a href="../_sources/_autosummary/opt2.integration.compute_integral.Rcf.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

@@ -6,10 +6,8 @@
 Welcome to "opt2"'s documentation!
 ==================================
 
-Hola cambion .py!
+REGRESANDO COMO ESTABA 
 
- .. toctree::
-   :maxdepth: 1
    :caption: Contents:
 
    installation
